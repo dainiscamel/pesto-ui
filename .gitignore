@@ -1,0 +1,24 @@
+
+# macOS 
+*.DS_Store
+
+# Node
+*.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# yarn 
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+**/node_modules/
+**/package-lock.json
+
+**/dist/*
+dist
