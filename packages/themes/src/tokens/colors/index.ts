@@ -1,1 +1,1 @@
-export * as palette from "./palette";
+export * as $static from "./static";
