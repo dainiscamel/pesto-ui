@@ -10,7 +10,7 @@ const toCssCasting = (str) => {
 };
 
 const generateCssTokens = () => {
-  const cssVars = [];
+  const cssTokens = [];
   Object.entries(theme.tokens).forEach(([key, value]) => {
     if (key === "colors") {
       Object.entries(value.$static).forEach(([colorKey, colorValue]) => {
@@ -29,19 +29,65 @@ const generateCssTokens = () => {
                 .join("\n")
             )
             .join("\n");
-          cssVars.push(`${selector} {\n${cssVariables}\n}`);
+          cssTokens.push(`${selector} {\n${cssVariables}\n}`);
+        }
+
+        if (colorKey === "dark") {
+          const selector = ":root .theme-dark";
+
+          const cssVariables = Object.entries(colorValue)
+            .map(([mainKey, mainValue]) =>
+              Object.entries(mainValue)
+                .map(
+                  ([subKey, subValue]) =>
+                    `--${toCssCasting(mainKey)}-${toCssCasting(
+                      subKey
+                    )}: ${subValue};`
+                )
+                .join("\n")
+            )
+            .join("\n");
+          cssTokens.push(`${selector} {\n${cssVariables}\n}`);
         }
       });
     }
   });
-  return cssVars;
+  return cssTokens;
+};
+const generateThemeClasses = () => {
+  const cssString = [];
+  Object.entries(theme.classes).forEach(([, value]) => {
+    const cssClasses = Object.entries(value)
+      .map(([mainKey, mainValue]) =>
+        Object.entries(mainValue)
+          .map(([subKey, subValue]) => {
+            const className = `.${toCssCasting(mainKey)}${toCssCasting(
+              subKey
+            )}`;
+
+            const styleProperties = Object.entries(subValue)
+              .map(
+                ([styleKey, styleValue]) =>
+                  `${toCssCasting(styleKey)}: ${styleValue};`
+              )
+              .join("\n");
+
+            return `${className} {\n${styleProperties}\n}`;
+          })
+          .join("\n")
+      )
+      .join("\n");
+
+    cssString.push(cssClasses);
+  });
+
+  return cssString;
 };
 
-const generateCss = () => {
+const generateThemeCss = () => {
   const tokens = generateCssTokens();
-
-  fs.writeFileSync("dist/themes.css", [...tokens].join("\n"));
-  // fs.writeFileSync("dist/themes.css", tokens);
+  const classes = generateThemeClasses();
+  fs.writeFileSync("dist/themes.css", [...tokens, ...classes].join("\n"));
 };
 
-generateCss();
+generateThemeCss();
