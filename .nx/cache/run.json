@@ -1,18 +1,29 @@
 {
   "run": {
     "command": "nx build @pesto-ui/themes",
-    "startTime": "2024-12-06T06:38:48.916Z",
-    "endTime": "2024-12-06T06:38:54.677Z",
+    "startTime": "2024-12-06T08:00:17.878Z",
+    "endTime": "2024-12-06T08:00:25.822Z",
     "inner": false
   },
   "tasks": [
     {
+      "taskId": "@pesto-ui/esbulid-config:build",
+      "target": "build",
+      "projectName": "@pesto-ui/esbulid-config",
+      "hash": "1888626980897496348",
+      "startTime": "2024-12-06T08:00:17.887Z",
+      "endTime": "2024-12-06T08:00:19.225Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
       "taskId": "@pesto-ui/themes:build",
       "target": "build",
       "projectName": "@pesto-ui/themes",
-      "hash": "4343621524896244592",
-      "startTime": "2024-12-06T06:38:48.923Z",
-      "endTime": "2024-12-06T06:38:54.677Z",
+      "hash": "6563722456464445275",
+      "startTime": "2024-12-06T08:00:19.226Z",
+      "endTime": "2024-12-06T08:00:25.822Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

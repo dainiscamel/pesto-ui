@@ -1,0 +1,37 @@
+(node:76983) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mInvalid option in build() call: "watch"[0m
+
+    /Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:253:12:
+[37m      253 │       throw [32m[37mnew Error(`Invalid option ${where}: ${quote(key)}`);
+          ╵             [32m^[0m
+
+    at checkForInvalidFlags (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:253:13)
+    at flagsForBuildOptions (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:426:3)
+    at buildOrContextContinue (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:913:9)
+    at buildOrContextImpl (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:897:5)
+    at Object.buildOrContext (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:699:5)
+    at /Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:2028:15
+    at new Promise (<anonymous>)
+    at Object.build (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:2027:25)
+    at build (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:1878:51)
+    at run (/Users/dainkang/DEV/pesto-ui/packages/esbulid-config/index.js:27:5)
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mInvalid option in build() call: "watch"[0m
+
+    /Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:253:12:
+[37m      253 │       throw [32m[37mnew Error(`Invalid option ${where}: ${quote(key)}`);
+          ╵             [32m^[0m
+
+    at checkForInvalidFlags (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:253:13)
+    at flagsForBuildOptions (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:426:3)
+    at buildOrContextContinue (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:913:9)
+    at buildOrContextImpl (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:897:5)
+    at Object.buildOrContext (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:699:5)
+    at /Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:2028:15
+    at new Promise (<anonymous>)
+    at Object.build (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:2027:25)
+    at build (/Users/dainkang/DEV/pesto-ui/.yarn/unplugged/esbuild-npm-0.24.0-1252872327/node_modules/esbuild/lib/main.js:1878:51)
+    at run (/Users/dainkang/DEV/pesto-ui/packages/esbulid-config/index.js:31:5)
+
+Build failed

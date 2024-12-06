@@ -20,7 +20,7 @@
     "clean": "rm -rf dist"
   },
   "devDependencies": {
-    "esbuild": "0.24.0",
+    "@pesto-ui/esbulid-config": "workspace:^",
     "typescript": "^5.6.3"
   }
 }
