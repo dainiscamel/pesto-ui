@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build @pesto-ui/themes",
+    "startTime": "2024-12-06T06:38:48.916Z",
+    "endTime": "2024-12-06T06:38:54.677Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@pesto-ui/themes:build",
+      "target": "build",
+      "projectName": "@pesto-ui/themes",
+      "hash": "4343621524896244592",
+      "startTime": "2024-12-06T06:38:48.923Z",
+      "endTime": "2024-12-06T06:38:54.677Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
