@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @pesto-ui/themes",
-    "startTime": "2024-12-06T08:00:17.878Z",
-    "endTime": "2024-12-06T08:00:25.822Z",
+    "command": "nx build @pesto-ui/storybook",
+    "startTime": "2024-12-08T16:57:57.543Z",
+    "endTime": "2024-12-08T16:58:06.091Z",
     "inner": false
   },
   "tasks": [
@@ -10,20 +10,42 @@
       "taskId": "@pesto-ui/esbulid-config:build",
       "target": "build",
       "projectName": "@pesto-ui/esbulid-config",
-      "hash": "1888626980897496348",
-      "startTime": "2024-12-06T08:00:17.887Z",
-      "endTime": "2024-12-06T08:00:19.225Z",
+      "hash": "15182976247786348749",
+      "startTime": "2024-12-08T16:57:57.580Z",
+      "endTime": "2024-12-08T16:57:57.582Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
       "taskId": "@pesto-ui/themes:build",
       "target": "build",
       "projectName": "@pesto-ui/themes",
-      "hash": "6563722456464445275",
-      "startTime": "2024-12-06T08:00:19.226Z",
-      "endTime": "2024-12-06T08:00:25.822Z",
+      "hash": "17179601899210785",
+      "startTime": "2024-12-08T16:57:57.584Z",
+      "endTime": "2024-12-08T16:57:57.594Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@pesto-ui/components-layout:build",
+      "target": "build",
+      "projectName": "@pesto-ui/components-layout",
+      "hash": "12265075493901056928",
+      "startTime": "2024-12-08T16:57:57.597Z",
+      "endTime": "2024-12-08T16:57:57.603Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@pesto-ui/storybook:build",
+      "target": "build",
+      "projectName": "@pesto-ui/storybook",
+      "hash": "7654002820620334910",
+      "startTime": "2024-12-08T16:57:57.607Z",
+      "endTime": "2024-12-08T16:58:06.090Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

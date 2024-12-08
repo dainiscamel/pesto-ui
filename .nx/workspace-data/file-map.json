@@ -11,96 +11,96 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
-        "hash": "10989494384090494064"
+        "file": ".vscode/extensions.json",
+        "hash": "9548985066040571086"
       },
       {
-        "file": "nx.json",
-        "hash": "10699588651405503240"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
-        "hash": "1451277444867543573"
-      },
-      {
-        "file": ".yarn/releases/yarn-4.5.3.cjs",
-        "hash": "6489667921987924519"
+        "file": ".gitignore",
+        "hash": "8140020299145584298"
       },
       {
         "file": ".prettierrc",
         "hash": "12078670118560183497"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsc.js",
-        "hash": "2839614163630542371"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "12071313547577799231"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "13950258182813509500"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "15424699035852861122"
-      },
-      {
-        "file": ".tool-versions",
-        "hash": "161226445197162975"
-      },
-      {
-        "file": ".yarn/sdks/eslint/bin/eslint.js",
-        "hash": "14872269478262836979"
-      },
-      {
-        "file": "package.json",
-        "hash": "3153143893304062517"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/typescript.js",
-        "hash": "2824640601725886217"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "9548985066040571086"
+        "file": ".yarn/releases/yarn-4.5.3.cjs",
+        "hash": "6489667921987924519"
       },
       {
         "file": ".yarn/sdks/typescript/lib/tsserver.js",
         "hash": "1301760797202983736"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15322884351288772532"
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "2824640601725886217"
       },
       {
-        "file": ".yarn/sdks/integrations.yml",
-        "hash": "5703335058684100671"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/api.js",
-        "hash": "11935524110648288742"
-      },
-      {
-        "file": "tsconfig.eslint.json",
-        "hash": "9188420867814966836"
-      },
-      {
-        "file": ".eslintrc.js",
-        "hash": "14052870021940613983"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "10809453370401041159"
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "1451277444867543573"
       },
       {
         "file": ".yarn/sdks/typescript/package.json",
         "hash": "16438558177481691231"
       },
       {
+        "file": ".yarnrc.yml",
+        "hash": "1003466441568424404"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "14052870021940613983"
+      },
+      {
+        "file": "package.json",
+        "hash": "11756584174542784048"
+      },
+      {
+        "file": "tsconfig.eslint.json",
+        "hash": "9188420867814966836"
+      },
+      {
         "file": ".yarn/sdks/typescript/bin/tsserver",
         "hash": "6819096246728401411"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15322884351288772532"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsc.js",
+        "hash": "2839614163630542371"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "11197242254535335919"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
+        "hash": "10989494384090494064"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "12071313547577799231"
+      },
+      {
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "5703335058684100671"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10699588651405503240"
+      },
+      {
+        "file": ".yarn/sdks/eslint/bin/eslint.js",
+        "hash": "14872269478262836979"
+      },
+      {
+        "file": ".tool-versions",
+        "hash": "161226445197162975"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/api.js",
+        "hash": "11935524110648288742"
       },
       {
         "file": ".yarn/sdks/eslint/package.json",
@@ -112,23 +112,6 @@
       }
     ],
     "projectFileMap": {
-      "@pesto-ui/esbulid-config": [
-        {
-          "file": "packages/esbulid-config/README.md",
-          "hash": "12426056178939135110"
-        },
-        {
-          "file": "packages/esbulid-config/index.js",
-          "hash": "13257225878907677644"
-        },
-        {
-          "file": "packages/esbulid-config/package.json",
-          "hash": "6970397006266216218",
-          "deps": [
-            "npm:esbuild@0.24.0"
-          ]
-        }
-      ],
       "@pesto-ui/themes": [
         {
           "file": "packages/themes/build.js",
@@ -201,6 +184,395 @@
         {
           "file": "packages/themes/tsconfig.json",
           "hash": "10248009443664204963"
+        }
+      ],
+      "storybook-static": [
+        {
+          "file": "services/storybook/storybook-static/assets/Block-Bo-o5-2q.css",
+          "hash": "16799828263875012135"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/Block.stories-CQRW2h8S.js",
+          "hash": "16125164154309874473"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/Color-F6OSRLHC-DRi-gZvH.js",
+          "hash": "16422475481486222931"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/DocsRenderer-CFRXHY34-B1yZxq08.js",
+          "hash": "14687039210443169527"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/chunk-XP5HYGXS-BGCqD1aY.js",
+          "hash": "795340966014916059"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/client-DOk03tLL.js",
+          "hash": "2845257393802615780"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/entry-preview-CzVrzhp3.js",
+          "hash": "949509458024302426"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/entry-preview-docs-Btxrtcu-.js",
+          "hash": "16566980687389400931"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/iframe-CMWzceiK.js",
+          "hash": "10040406873423143875"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-BIm0odtm.js",
+          "hash": "3077935507694731232"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-CHGET4sZ.js",
+          "hash": "14554237657659254286"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-D2MAbzvX.js",
+          "hash": "11973428961407624508"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-DEBVq0NN.js",
+          "hash": "4717587801020406965"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-DLZJTL_W.js",
+          "hash": "17986473217157549799"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-DrFu-skq.js",
+          "hash": "18399691510462276285"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/index-wVKkCAEq.js",
+          "hash": "167773657370400469"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/jsx-runtime-BjgbQsUx.js",
+          "hash": "7290326850319726542"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-B-qd0CWa.js",
+          "hash": "6707674705346007066"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-BA0l8VWJ.js",
+          "hash": "11511643333499056553"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-BJ6EHSBF.js",
+          "hash": "7384940680629499973"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-BJVdfDAd.js",
+          "hash": "11308597782940143720"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-BWzBA1C2.js",
+          "hash": "7263242102374825479"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-CFgKly6U.js",
+          "hash": "4302950137448965960"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-D77C14du.js",
+          "hash": "3118757951766789020"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-DFmD0pui.js",
+          "hash": "17432783297061268284"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-DGUiP6tS.js",
+          "hash": "16270525355155682599"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-F0GN0T3d.css",
+          "hash": "11869051987547371831"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/preview-aVwhiz9X.js",
+          "hash": "17094652247981637211"
+        },
+        {
+          "file": "services/storybook/storybook-static/assets/react-18-30CBmNFw.js",
+          "hash": "7883038201010512142"
+        },
+        {
+          "file": "services/storybook/storybook-static/favicon.svg",
+          "hash": "293678475295978129"
+        },
+        {
+          "file": "services/storybook/storybook-static/iframe.html",
+          "hash": "159718934777460317"
+        },
+        {
+          "file": "services/storybook/storybook-static/index.html",
+          "hash": "129826743442657506"
+        },
+        {
+          "file": "services/storybook/storybook-static/index.json",
+          "hash": "130626291638936358"
+        },
+        {
+          "file": "services/storybook/storybook-static/nunito-sans-bold-italic.woff2",
+          "hash": "16937166808963441226"
+        },
+        {
+          "file": "services/storybook/storybook-static/nunito-sans-bold.woff2",
+          "hash": "14169727957364227"
+        },
+        {
+          "file": "services/storybook/storybook-static/nunito-sans-italic.woff2",
+          "hash": "13111399484457157170"
+        },
+        {
+          "file": "services/storybook/storybook-static/nunito-sans-regular.woff2",
+          "hash": "13367830169426244845"
+        },
+        {
+          "file": "services/storybook/storybook-static/project.json",
+          "hash": "10643773908590621614"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/chromatic-com-storybook-9/manager-bundle.js",
+          "hash": "16351024816102666148"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/chromatic-com-storybook-9/manager-bundle.js.LEGAL.txt",
+          "hash": "5565894050199624517"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js",
+          "hash": "15050086302547560590"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js",
+          "hash": "958204062185185676"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js",
+          "hash": "10922321503374917362"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js",
+          "hash": "1349159570784273606"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js",
+          "hash": "6775998069866771135"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js",
+          "hash": "10563177686066722604"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js",
+          "hash": "12969771087575367819"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/interactions-10/manager-bundle.js",
+          "hash": "4451148994993924098"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/interactions-10/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/onboarding-1/manager-bundle.js",
+          "hash": "15849068051053268244"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/onboarding-1/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/root-attributes-11/manager-bundle.js",
+          "hash": "16182860851433341384"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/root-attributes-11/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js",
+          "hash": "18415043629388664997"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/favicon.svg",
+          "hash": "293678475295978129"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2",
+          "hash": "16937166808963441226"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-bold.woff2",
+          "hash": "14169727957364227"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-italic.woff2",
+          "hash": "13111399484457157170"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-regular.woff2",
+          "hash": "13367830169426244845"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/globals-module-info.js",
+          "hash": "2449297514724617772"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/globals-runtime.js",
+          "hash": "14068373241826655164"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/globals.js",
+          "hash": "6046937989373610199"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/runtime.js",
+          "hash": "3980732282108301016"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-preview/globals.js",
+          "hash": "12096448518958042621"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-preview/runtime.js",
+          "hash": "1757032265232371875"
+        }
+      ],
+      "@pesto-ui/components-layout": [
+        {
+          "file": "packages/components/layout/build.js",
+          "hash": "3908007933804051526"
+        },
+        {
+          "file": "packages/components/layout/package.json",
+          "hash": "14524152456197648160",
+          "deps": [
+            "@pesto-ui/themes",
+            "npm:react@19.0.0",
+            "@pesto-ui/esbulid-config",
+            "npm:@types/react@19.0.1",
+            "npm:@types/react-dom@19.0.1",
+            "npm:@vanilla-extract/css@1.16.1",
+            "npm:@vanilla-extract/esbuild-plugin@2.3.12",
+            "npm:react-dom@19.0.0",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/components/layout/src/Block.tsx",
+          "hash": "17237981931848335945"
+        },
+        {
+          "file": "packages/components/layout/src/block.css.ts",
+          "hash": "12935649018028082799"
+        },
+        {
+          "file": "packages/components/layout/src/index.ts",
+          "hash": "12541406279628729372"
+        },
+        {
+          "file": "packages/components/layout/tsconfig.json",
+          "hash": "2552349851607256094"
+        }
+      ],
+      "@pesto-ui/esbulid-config": [
+        {
+          "file": "packages/esbulid-config/README.md",
+          "hash": "12426056178939135110"
+        },
+        {
+          "file": "packages/esbulid-config/index.js",
+          "hash": "13257225878907677644"
+        },
+        {
+          "file": "packages/esbulid-config/package.json",
+          "hash": "6970397006266216218",
+          "deps": [
+            "npm:esbuild@0.24.0"
+          ]
+        }
+      ],
+      "@pesto-ui/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "2455748146703105359"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "17446526406210210608"
+        },
+        {
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "17042846483066175536"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "6467243046135403902",
+          "deps": [
+            "npm:@chromatic-com/storybook@3.2.2",
+            "@pesto-ui/components-layout",
+            "npm:@storybook/addon-essentials@8.4.7",
+            "npm:@storybook/addon-interactions@8.4.7",
+            "npm:@storybook/addon-onboarding@8.4.7",
+            "npm:@storybook/blocks@8.4.7",
+            "npm:@storybook/react@8.4.7",
+            "npm:@storybook/react-vite@8.4.7",
+            "npm:@storybook/test@8.4.7",
+            "npm:prop-types@15.8.1",
+            "npm:storybook@8.4.7",
+            "npm:storybook-addon-root-attributes@2.1.3",
+            "npm:vite@6.0.3"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/layout/Block.stories.tsx",
+          "hash": "11055214548273770219"
         }
       ]
     }
