@@ -1,0 +1,15 @@
+(node:23233) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../types/styles"[0m
+
+    src/layout/Box.tsx:4:31:
+[37m      4 │ import { StyleSprinkles } from [32m"../types/styles"[37m;
+        ╵                                [32m~~~~~~~~~~~~~~~~~[0m
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../types/styles"[0m
+
+    src/layout/Box.tsx:4:31:
+[37m      4 │ import { StyleSprinkles } from [32m"../types/styles"[37m;
+        ╵                                [32m~~~~~~~~~~~~~~~~~[0m
+
+Build failed

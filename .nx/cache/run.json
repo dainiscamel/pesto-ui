@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @pesto-ui/storybook",
-    "startTime": "2024-12-08T16:57:57.543Z",
-    "endTime": "2024-12-08T16:58:06.091Z",
+    "command": "nx build @pesto-ui/components-layout",
+    "startTime": "2024-12-10T15:08:11.145Z",
+    "endTime": "2024-12-10T15:08:11.179Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@pesto-ui/esbulid-config:build",
       "target": "build",
       "projectName": "@pesto-ui/esbulid-config",
-      "hash": "15182976247786348749",
-      "startTime": "2024-12-08T16:57:57.580Z",
-      "endTime": "2024-12-08T16:57:57.582Z",
+      "hash": "1850427572254047075",
+      "startTime": "2024-12-10T15:08:11.158Z",
+      "endTime": "2024-12-10T15:08:11.158Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
@@ -21,9 +21,9 @@
       "taskId": "@pesto-ui/themes:build",
       "target": "build",
       "projectName": "@pesto-ui/themes",
-      "hash": "17179601899210785",
-      "startTime": "2024-12-08T16:57:57.584Z",
-      "endTime": "2024-12-08T16:57:57.594Z",
+      "hash": "621505857060127905",
+      "startTime": "2024-12-10T15:08:11.161Z",
+      "endTime": "2024-12-10T15:08:11.169Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
@@ -32,22 +32,11 @@
       "taskId": "@pesto-ui/components-layout:build",
       "target": "build",
       "projectName": "@pesto-ui/components-layout",
-      "hash": "12265075493901056928",
-      "startTime": "2024-12-08T16:57:57.597Z",
-      "endTime": "2024-12-08T16:57:57.603Z",
+      "hash": "14818299511561216380",
+      "startTime": "2024-12-10T15:08:11.173Z",
+      "endTime": "2024-12-10T15:08:11.177Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "@pesto-ui/storybook:build",
-      "target": "build",
-      "projectName": "@pesto-ui/storybook",
-      "hash": "7654002820620334910",
-      "startTime": "2024-12-08T16:57:57.607Z",
-      "endTime": "2024-12-08T16:58:06.090Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
       "status": 0
     }
   ]

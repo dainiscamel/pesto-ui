@@ -1,0 +1,37 @@
+(node:599) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mCalling "clsx" will crash at run-time because it's an import namespace object, not a function[0m [call-import-namespace]
+
+    src/layout/Box.tsx:15:17:
+[37m      15 │       className: [32mclsx[37m([
+         ╵                  [32m~~~~[0m
+
+  Consider changing "clsx" to a default import instead:
+
+    src/layout/Box.tsx:3:7:
+[37m      3 │ import [32m* as clsx[37m from "clsx";
+        │        [32m~~~~~~~~~[37m
+        ╵        [32mclsx[0m
+
+  Make sure to enable TypeScript's "esModuleInterop" setting so that TypeScript's type checker
+  generates an error when you try to do this. You can read more about this setting here:
+  [4mhttps://www.typescriptlang.org/tsconfig#esModuleInterop[0m
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mCalling "clsx" will crash at run-time because it's an import namespace object, not a function[0m [call-import-namespace]
+
+    src/layout/Box.tsx:15:17:
+[37m      15 │       className: [32mclsx[37m([
+         ╵                  [32m~~~~[0m
+
+  Consider changing "clsx" to a default import instead:
+
+    src/layout/Box.tsx:3:7:
+[37m      3 │ import [32m* as clsx[37m from "clsx";
+        │        [32m~~~~~~~~~[37m
+        ╵        [32mclsx[0m
+
+  Make sure to enable TypeScript's "esModuleInterop" setting so that TypeScript's type checker
+  generates an error when you try to do this. You can read more about this setting here:
+  [4mhttps://www.typescriptlang.org/tsconfig#esModuleInterop[0m
+
+Build completed

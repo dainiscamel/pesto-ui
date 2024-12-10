@@ -1,0 +1,11 @@
+(node:47396) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Build completed
+[96msrc/layout/types.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../utils/types"' has no exported member 'asProps'.
+
+[7m1[0m import { asProps } from "../utils/types";
+[7m [0m [91m         ~~~~~~~[0m
+
+
+Found 1 error in src/layout/types.ts[90m:1[0m
+

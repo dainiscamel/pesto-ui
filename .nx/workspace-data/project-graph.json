@@ -3435,6 +3435,15 @@
         "hash": "10c0/f1c4d9f32f509f664b2d073ea114ff0a83f154bd3cdae429cade64ad1ca0fdc1ba745f2811496cc6a6f8e5513a9a0fa3798ffc41e6ff8868aa7f06c825f615ef"
       }
     },
+    "npm:@vanilla-extract/sprinkles@1.6.3": {
+      "type": "npm",
+      "name": "npm:@vanilla-extract/sprinkles@1.6.3",
+      "data": {
+        "version": "1.6.3",
+        "packageName": "@vanilla-extract/sprinkles",
+        "hash": "10c0/17e03af9d090aa175bdeae646ae4a5bf1da37b7e473caa4ab92efbbd7678e53137e10281a0669f50ab5bd985a59e621da2bfc3e0cc28bded32becd72b8cfaf13"
+      }
+    },
     "npm:@vitest/expect@2.0.5": {
       "type": "npm",
       "name": "npm:@vitest/expect@2.0.5",
@@ -4126,6 +4135,15 @@
         "version": "1.0.4",
         "packageName": "clone",
         "hash": "10c0/2176952b3649293473999a95d7bebfc9dc96410f6cbd3d2595cf12fd401f63a4bf41a7adbfd3ab2ff09ed60cb9870c58c6acdd18b87767366fabfc163700f13b"
+      }
+    },
+    "npm:clsx@2.1.1": {
+      "type": "npm",
+      "name": "npm:clsx@2.1.1",
+      "data": {
+        "version": "2.1.1",
+        "packageName": "clsx",
+        "hash": "10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839"
       }
     },
     "npm:color-convert@2.0.1": {
@@ -8858,12 +8876,22 @@
       },
       {
         "source": "@pesto-ui/components-layout",
+        "target": "npm:@vanilla-extract/sprinkles@1.6.3",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-layout",
         "target": "npm:react-dom@19.0.0",
         "type": "static"
       },
       {
         "source": "@pesto-ui/components-layout",
         "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-layout",
+        "target": "npm:clsx@2.1.1",
         "type": "static"
       }
     ],
