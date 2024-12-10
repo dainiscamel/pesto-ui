@@ -9,8 +9,8 @@ type AsProps = {
 export type AsElementProps = AsProps & React.HtmlHTMLAttributes<HTMLElement>;
 
 export type ColorProps = {
-  color?: keyof typeof tokens.colors.$scale;
-  background?: keyof typeof tokens.colors.$scale;
+  color: keyof typeof tokens.colors.$scale;
+  background: keyof typeof tokens.colors.$scale;
 };
 
 export type StyleProps = Parameters<typeof StyleSprinkles>[0] & ColorProps;

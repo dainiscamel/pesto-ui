@@ -3,9 +3,10 @@ import { BoxProps } from "./types";
 import { clsx } from "clsx";
 import { StyleSprinkles } from "../types/styles.css";
 import { extractSprinkleProps } from "../utils";
+import { tokens } from "@pesto-ui/themes";
 
 const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
-  const { as = "div", children } = props;
+  const { as = "div", color, background, children } = props;
 
   return React.createElement(
     as,
@@ -19,7 +20,9 @@ const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
         props.className,
       ]),
       style: {
-        background: "pink",
+        color: tokens.colors.$scale?.[color]?.[700] ?? color,
+        background: tokens.colors.$scale?.[background]?.[100] ?? background,
+        ...props.style,
       },
     },
     children,
