@@ -14,8 +14,10 @@ export const BoxStory = {
   args: {
     as: "button",
     padding: "5",
-    background: "pink",
+    background: "#ffc2cc",
     boxShadow: "xl",
     borderRadius: "md",
+    children: "I'm a Box",
+    color: "orange",
   },
 };

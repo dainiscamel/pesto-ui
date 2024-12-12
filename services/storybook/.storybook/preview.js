@@ -1,4 +1,5 @@
 /** @type { import('@storybook/react').Preview } */
+import "@pesto-ui/themes/themes.css";
 import "./style.css";
 
 const preview = {
@@ -40,6 +41,6 @@ const initTheme = () => {
     }
   });
 };
-initTheme();
+//initTheme();
 
 export default preview;
