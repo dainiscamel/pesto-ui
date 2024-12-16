@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx build @pesto-ui/components-layout",
-    "startTime": "2024-12-16T09:24:43.899Z",
-    "endTime": "2024-12-16T09:24:51.497Z",
+    "startTime": "2024-12-16T13:59:31.578Z",
+    "endTime": "2024-12-16T13:59:31.604Z",
     "inner": false
   },
   "tasks": [
@@ -11,8 +11,8 @@
       "target": "build",
       "projectName": "@pesto-ui/esbulid-config",
       "hash": "9590364390923102752",
-      "startTime": "2024-12-16T09:24:43.913Z",
-      "endTime": "2024-12-16T09:24:43.913Z",
+      "startTime": "2024-12-16T13:59:31.586Z",
+      "endTime": "2024-12-16T13:59:31.586Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
@@ -22,8 +22,8 @@
       "target": "build",
       "projectName": "@pesto-ui/themes",
       "hash": "8729752136303659095",
-      "startTime": "2024-12-16T09:24:43.916Z",
-      "endTime": "2024-12-16T09:24:43.919Z",
+      "startTime": "2024-12-16T13:59:31.587Z",
+      "endTime": "2024-12-16T13:59:31.595Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
@@ -32,11 +32,11 @@
       "taskId": "@pesto-ui/components-layout:build",
       "target": "build",
       "projectName": "@pesto-ui/components-layout",
-      "hash": "12423493599537486506",
-      "startTime": "2024-12-16T09:24:43.924Z",
-      "endTime": "2024-12-16T09:24:51.497Z",
+      "hash": "11750293707963867516",
+      "startTime": "2024-12-16T13:59:31.599Z",
+      "endTime": "2024-12-16T13:59:31.602Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     }
   ]
