@@ -17,6 +17,7 @@ const Divider = (props: DividerProps, ref: React.Ref<HTMLHRElement>) => {
           borderWidth: `0 0 ${size}px 0`,
         }
       : {
+          display: "inline-block",
           height: "100%",
           borderWidth: `0 0 0 ${size}px`,
         };
