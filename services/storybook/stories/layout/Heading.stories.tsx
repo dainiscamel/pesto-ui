@@ -2,7 +2,7 @@ import "@pesto-ui/components-layout/style.css";
 import { Heading as _Heading } from "@pesto-ui/components-layout";
 
 export default {
-  title: "sComponents/Layout/Heading",
+  title: "React Components/Layout/Heading",
   component: _Heading,
   parameters: {
     layout: "centered",

@@ -2,7 +2,7 @@ import "@pesto-ui/components-layout/style.css";
 import { Box as _Box } from "@pesto-ui/components-layout";
 
 export default {
-  title: "sComponents/Layout/Box",
+  title: "React Components/Layout/Box",
   component: _Box,
   parameters: {
     layout: "centered",

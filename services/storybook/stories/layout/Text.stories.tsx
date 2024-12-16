@@ -3,7 +3,7 @@ import { Text as _Text } from "@pesto-ui/components-layout";
 import { classes, tokens } from "@pesto-ui/themes";
 
 export default {
-  title: "sComponents/Layout/Text",
+  title: "React Components/Layout/Text",
   component: _Text,
   parameters: {
     layout: "centered",

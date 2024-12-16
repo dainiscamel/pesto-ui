@@ -1,1 +1,41 @@
-{"v":5,"entries":{"scomponents-layout-box--docs":{"id":"scomponents-layout-box--docs","title":"sComponents/Layout/Box","name":"Docs","importPath":"./stories/layout/Box.stories.tsx","type":"docs","tags":["dev","test","autodocs"],"storiesImports":[]},"scomponents-layout-box--box-story":{"type":"story","id":"scomponents-layout-box--box-story","name":"Box Story","title":"sComponents/Layout/Box","importPath":"./stories/layout/Box.stories.tsx","componentPath":"@pesto-ui/components-layout","tags":["dev","test","autodocs"]},"scomponents-layout-typography--docs":{"id":"scomponents-layout-typography--docs","title":"sComponents/Layout/Typography","name":"Docs","importPath":"./stories/layout/Typography.stories.tsx","type":"docs","tags":["dev","test","autodocs"],"storiesImports":[]},"scomponents-layout-typography--text-story":{"type":"story","id":"scomponents-layout-typography--text-story","name":"Text Story","title":"sComponents/Layout/Typography","importPath":"./stories/layout/Typography.stories.tsx","componentPath":"@pesto-ui/components-layout","tags":["dev","test","autodocs"]}}}
+{
+  "v": 5,
+  "entries": {
+    "React Components-layout-box--docs": {
+      "id": "React Components-layout-box--docs",
+      "title": "React Components/Layout/Box",
+      "name": "Docs",
+      "importPath": "./stories/layout/Box.stories.tsx",
+      "type": "docs",
+      "tags": ["dev", "test", "autodocs"],
+      "storiesImports": []
+    },
+    "React Components-layout-box--box-story": {
+      "type": "story",
+      "id": "React Components-layout-box--box-story",
+      "name": "Box Story",
+      "title": "React Components/Layout/Box",
+      "importPath": "./stories/layout/Box.stories.tsx",
+      "componentPath": "@pesto-ui/components-layout",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "React Components-layout-typography--docs": {
+      "id": "React Components-layout-typography--docs",
+      "title": "React Components/Layout/Typography",
+      "name": "Docs",
+      "importPath": "./stories/layout/Typography.stories.tsx",
+      "type": "docs",
+      "tags": ["dev", "test", "autodocs"],
+      "storiesImports": []
+    },
+    "React Components-layout-typography--text-story": {
+      "type": "story",
+      "id": "React Components-layout-typography--text-story",
+      "name": "Text Story",
+      "title": "React Components/Layout/Typography",
+      "importPath": "./stories/layout/Typography.stories.tsx",
+      "componentPath": "@pesto-ui/components-layout",
+      "tags": ["dev", "test", "autodocs"]
+    }
+  }
+}
