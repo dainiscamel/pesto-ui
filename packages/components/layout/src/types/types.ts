@@ -3,14 +3,16 @@ import { StyleSprinkles } from "./styles.css";
 import { tokens } from "@pesto-ui/themes";
 
 type AsProps = {
-  as?: keyof JSX.IntrinsicAttributes; // 태그 이름 동적으로 설정
+  as?: Exclude<keyof JSX.IntrinsicElements, keyof SVGElementTagNameMap>;
 };
 
-export type AsElementProps = AsProps & React.HtmlHTMLAttributes<HTMLElement>;
+type ElementProps = Omit<React.HTMLAttributes<HTMLElement>, "as">;
+
+export type AsElementProps = AsProps & ElementProps;
 
 export type ColorProps = {
-  color: keyof typeof tokens.colors.$scale;
-  background: keyof typeof tokens.colors.$scale;
+  color?: keyof typeof tokens.colors.$scale;
+  background?: keyof typeof tokens.colors.$scale;
 };
 
 export type StyleProps = Parameters<typeof StyleSprinkles>[0] & ColorProps;

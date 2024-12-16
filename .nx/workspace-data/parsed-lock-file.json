@@ -144,6 +144,24 @@
         "hash": "10c0/5192ebe11bd46aea68b7a60fd9555465c59af7e279e71126788e59121b86e00b505816685ab4782abe159232b0f73854e804b54449820b0d950b397ee158caa2"
       }
     },
+    "npm:@babel/plugin-transform-react-jsx-self@7.25.9": {
+      "type": "npm",
+      "name": "npm:@babel/plugin-transform-react-jsx-self@7.25.9",
+      "data": {
+        "version": "7.25.9",
+        "packageName": "@babel/plugin-transform-react-jsx-self",
+        "hash": "10c0/ce0e289f6af93d7c4dc6b385512199c5bb138ae61507b4d5117ba88b6a6b5092f704f1bdf80080b7d69b1b8c36649f2a0b250e8198667d4d30c08bbb1546bd99"
+      }
+    },
+    "npm:@babel/plugin-transform-react-jsx-source@7.25.9": {
+      "type": "npm",
+      "name": "npm:@babel/plugin-transform-react-jsx-source@7.25.9",
+      "data": {
+        "version": "7.25.9",
+        "packageName": "@babel/plugin-transform-react-jsx-source",
+        "hash": "10c0/fc9ee08efc9be7cbd2cc6788bbf92579adf3cab37912481f1b915221be3d22b0613b5b36a721df5f4c0ab65efe8582fcf8673caab83e6e1ce4cc04ceebf57dfa"
+      }
+    },
     "npm:@babel/runtime@7.26.0": {
       "type": "npm",
       "name": "npm:@babel/runtime@7.26.0",
@@ -2034,6 +2052,15 @@
         "hash": "10c0/ef6351ae073c45c2ac89494dbb3e1f87cc60a93ce4cde797b782812b6f97da0d620ae81973f104b43c9b7eaa789ad20ba4f6a1359f1cc62f63729a55a7d22d4e"
       }
     },
+    "npm:@storybook/addon-a11y@8.4.7": {
+      "type": "npm",
+      "name": "npm:@storybook/addon-a11y@8.4.7",
+      "data": {
+        "version": "8.4.7",
+        "packageName": "@storybook/addon-a11y",
+        "hash": "10c0/d00c65b8e256dfc283774562e0ff3cabbd8b9f3fbe619eb23d2c9951d7b075cf29fe8bdb57d3f05756f649bee8b04dfbed6389e852632b40f748cb6c8bba8896"
+      }
+    },
     "npm:@storybook/addon-actions@8.4.7": {
       "type": "npm",
       "name": "npm:@storybook/addon-actions@8.4.7",
@@ -2104,6 +2131,15 @@
         "version": "8.4.7",
         "packageName": "@storybook/addon-interactions",
         "hash": "10c0/5c35d2f33122f053568a746c36eb99eb1764ee990146ea374b0fc01defd3f0b33674d2758c027c760fe2966f8683193e8c414089c07e1136ffc562e3346ce479"
+      }
+    },
+    "npm:@storybook/addon-links@8.4.7": {
+      "type": "npm",
+      "name": "npm:@storybook/addon-links@8.4.7",
+      "data": {
+        "version": "8.4.7",
+        "packageName": "@storybook/addon-links",
+        "hash": "10c0/475d3231ac6c6531cfa5d01e8816b90cbf51e993c1575fa7bf541540bf76af52d7f1087e929b87d771ce41ae4fd7762df1e25c9d8543200630f8618d85b16520"
       }
     },
     "npm:@storybook/addon-measure@8.4.7": {
@@ -3042,6 +3078,15 @@
         "hash": "10c0/f1c4d9f32f509f664b2d073ea114ff0a83f154bd3cdae429cade64ad1ca0fdc1ba745f2811496cc6a6f8e5513a9a0fa3798ffc41e6ff8868aa7f06c825f615ef"
       }
     },
+    "npm:@vanilla-extract/recipes@0.5.5": {
+      "type": "npm",
+      "name": "npm:@vanilla-extract/recipes@0.5.5",
+      "data": {
+        "version": "0.5.5",
+        "packageName": "@vanilla-extract/recipes",
+        "hash": "10c0/5e032bc3f7873b1deb39fc64e2ab6871ac3d70dd527309b4e08310def142180fd346df48ca33306ac0ea7626673856e3995fab03f56f54a967c48a3e5e4545d3"
+      }
+    },
     "npm:@vanilla-extract/sprinkles@1.6.3": {
       "type": "npm",
       "name": "npm:@vanilla-extract/sprinkles@1.6.3",
@@ -3049,6 +3094,15 @@
         "version": "1.6.3",
         "packageName": "@vanilla-extract/sprinkles",
         "hash": "10c0/17e03af9d090aa175bdeae646ae4a5bf1da37b7e473caa4ab92efbbd7678e53137e10281a0669f50ab5bd985a59e621da2bfc3e0cc28bded32becd72b8cfaf13"
+      }
+    },
+    "npm:@vitejs/plugin-react@4.3.4": {
+      "type": "npm",
+      "name": "npm:@vitejs/plugin-react@4.3.4",
+      "data": {
+        "version": "4.3.4",
+        "packageName": "@vitejs/plugin-react",
+        "hash": "10c0/38a47a1dbafae0b97142943d83ee3674cb3331153a60b1a3fd29d230c12c9dfe63b7c345b231a3450168ed8a9375a9a1a253c3d85e9efdc19478c0d56b98496c"
       }
     },
     "npm:@vitest/expect@2.0.5": {
@@ -7038,6 +7092,15 @@
         "hash": "10c0/f2f1e60010c683479e74c63f96b09fb41603527cd131a9959e2aee1e5a8b0caf270b365e5ca77d4a6b18aae659b60a86150bb3979073528877029b35aecd2072"
       }
     },
+    "npm:react-refresh@0.14.2": {
+      "type": "npm",
+      "name": "npm:react-refresh@0.14.2",
+      "data": {
+        "version": "0.14.2",
+        "packageName": "react-refresh",
+        "hash": "10c0/875b72ef56b147a131e33f2abd6ec059d1989854b3ff438898e4f9310bfcc73acff709445b7ba843318a953cb9424bcc2c05af2b3d80011cee28f25aef3e2ebb"
+      }
+    },
     "npm:react-remove-scroll-bar@2.3.6": {
       "type": "npm",
       "name": "npm:react-remove-scroll-bar@2.3.6",
@@ -7531,6 +7594,15 @@
         "version": "2.14.3",
         "packageName": "store2",
         "hash": "10c0/22e1096e6d69590672ca0b7f891d82b060837ef4c3e5df0d4563e6cbed14c52ddf2589fa94b79f4311b6ec41d95d6142e5d01d194539e0175c3fb4090cca8244"
+      }
+    },
+    "npm:storybook-addon-pseudo-states@4.0.2": {
+      "type": "npm",
+      "name": "npm:storybook-addon-pseudo-states@4.0.2",
+      "data": {
+        "version": "4.0.2",
+        "packageName": "storybook-addon-pseudo-states",
+        "hash": "10c0/47ddb902ac61b7132795603228f087fc933d10eca8c4f310cae19e20835d46f2a20481aaf6d440d52d9e87d47606c810977bf636a1140b1f6efd0e8108f265be"
       }
     },
     "npm:storybook-addon-root-attributes@2.1.3": {
@@ -8815,6 +8887,81 @@
       "type": "static"
     },
     {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@ampproject/remapping@2.3.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/code-frame@7.26.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/generator@7.26.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/helper-compilation-targets@7.25.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/helper-module-transforms@7.26.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/helpers@7.26.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/parser@7.26.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/template@7.25.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/traverse@7.26.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:@babel/types@7.26.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:convert-source-map@2.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:debug@4.4.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:gensync@1.0.0-beta.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:json5@2.2.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/core@7.26.0",
+      "target": "npm:semver@6.3.1",
+      "type": "static"
+    },
+    {
       "source": "npm:@babel/generator@7.26.3",
       "target": "npm:@babel/parser@7.26.3",
       "type": "static"
@@ -8986,6 +9133,16 @@
     },
     {
       "source": "npm:@babel/plugin-syntax-typescript@7.25.9",
+      "target": "npm:@babel/helper-plugin-utils@7.25.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/plugin-transform-react-jsx-self@7.25.9",
+      "target": "npm:@babel/helper-plugin-utils@7.25.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/plugin-transform-react-jsx-source@7.25.9",
       "target": "npm:@babel/helper-plugin-utils@7.25.9",
       "type": "static"
     },
@@ -10230,6 +10387,16 @@
       "type": "static"
     },
     {
+      "source": "npm:@storybook/addon-a11y@8.4.7",
+      "target": "npm:@storybook/addon-highlight@8.4.7",
+      "type": "static"
+    },
+    {
+      "source": "npm:@storybook/addon-a11y@8.4.7",
+      "target": "npm:axe-core@4.10.2",
+      "type": "static"
+    },
+    {
       "source": "npm:@storybook/addon-actions@8.4.7",
       "target": "npm:@storybook/global@5.0.0",
       "type": "static"
@@ -10491,6 +10658,21 @@
     },
     {
       "source": "npm:@storybook/addon-interactions@8.4.7",
+      "target": "npm:ts-dedent@2.2.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@storybook/addon-links@8.4.7",
+      "target": "npm:@storybook/csf@0.1.12",
+      "type": "static"
+    },
+    {
+      "source": "npm:@storybook/addon-links@8.4.7",
+      "target": "npm:@storybook/global@5.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@storybook/addon-links@8.4.7",
       "target": "npm:ts-dedent@2.2.0",
       "type": "static"
     },
@@ -11575,6 +11757,31 @@
       "type": "static"
     },
     {
+      "source": "npm:@types/babel__core@7.20.5",
+      "target": "npm:@babel/parser@7.26.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/babel__core@7.20.5",
+      "target": "npm:@babel/types@7.26.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/babel__core@7.20.5",
+      "target": "npm:@types/babel__generator@7.6.8",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/babel__core@7.20.5",
+      "target": "npm:@types/babel__template@7.4.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/babel__core@7.20.5",
+      "target": "npm:@types/babel__traverse@7.20.6",
+      "type": "static"
+    },
+    {
       "source": "npm:@types/babel__generator@7.6.8",
       "target": "npm:@babel/types@7.26.3",
       "type": "static"
@@ -12167,6 +12374,31 @@
     {
       "source": "npm:@vanilla-extract/integration@7.1.11",
       "target": "npm:vite-node@1.6.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vitejs/plugin-react@4.3.4",
+      "target": "npm:@babel/core@7.26.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vitejs/plugin-react@4.3.4",
+      "target": "npm:@babel/plugin-transform-react-jsx-self@7.25.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vitejs/plugin-react@4.3.4",
+      "target": "npm:@babel/plugin-transform-react-jsx-source@7.25.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vitejs/plugin-react@4.3.4",
+      "target": "npm:@types/babel__core@7.20.5",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vitejs/plugin-react@4.3.4",
+      "target": "npm:react-refresh@0.14.2",
       "type": "static"
     },
     {
@@ -19447,6 +19679,11 @@
     {
       "source": "npm:ssri@12.0.0",
       "target": "npm:minipass@7.1.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:storybook-addon-pseudo-states@4.0.2",
+      "target": "npm:@storybook/icons@1.3.0",
       "type": "static"
     },
     {

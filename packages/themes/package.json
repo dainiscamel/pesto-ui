@@ -1,7 +1,6 @@
 {
   "name": "@pesto-ui/themes",
   "version": "0.0.1",
-  "description": "",
   "main": "dist/index.js",
   "type": "module",
   "exports": {

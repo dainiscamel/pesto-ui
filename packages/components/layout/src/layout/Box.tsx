@@ -1,7 +1,7 @@
 import * as React from "react";
 import { BoxProps } from "./types";
 import { clsx } from "clsx";
-import { StyleSprinkles } from "../types/styles.css";
+import { BaseStyle, StyleSprinkles } from "../types/styles.css";
 import { extractSprinkleProps } from "../utils";
 import { tokens } from "@pesto-ui/themes";
 
@@ -14,14 +14,15 @@ const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
       ...props,
       ref,
       className: clsx([
+        BaseStyle,
         StyleSprinkles(
           extractSprinkleProps(props, Array.from(StyleSprinkles.properties)),
         ),
         props.className,
       ]),
       style: {
-        color: tokens.colors.$scale?.[color]?.[700] ?? color,
-        background: tokens.colors.$scale?.[background]?.[100] ?? background,
+        color: color && tokens.colors.$scale?.[color]?.[700],
+        background: background && tokens.colors.$scale?.[background]?.[100],
         ...props.style,
       },
     },
