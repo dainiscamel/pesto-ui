@@ -3,6 +3,7 @@
   "packageManager": "yarn@4.5.3",
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.2",
+    "@pesto-ui/components-button": "workspace:^",
     "@pesto-ui/components-layout": "workspace:^",
     "@pesto-ui/themes": "workspace:^",
     "@storybook/addon-a11y": "^8.4.7",
