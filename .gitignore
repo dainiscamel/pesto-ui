@@ -17,6 +17,9 @@
 !.yarn/versions
 .pnp.*
 
+#nx
+.nx/cache
+
 **/node_modules/
 **/package-lock.json
 
