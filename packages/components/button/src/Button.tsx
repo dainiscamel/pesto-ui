@@ -9,19 +9,20 @@ import {
   enableColorVariant,
   hoverColorVariant,
   iconStyle,
+  spinnerStyle,
 } from "./style.css";
 
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
   const {
     color = "gray",
-    iconSpacing,
+    iconSpacing = 1,
     isDisabled = false,
     isLoading = false,
     leftIcon,
     loadingText,
     rightIcon,
     size = "md",
-    spinner,
+    spinner = <div className={spinnerStyle({ size })} />,
     spinnerPlacement = "start",
     variant = "solid",
     children,
@@ -39,28 +40,43 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
       : tokens.colors.$scale[color][100];
 
   const disabled = isDisabled;
+
   return (
     <button
       {...rest}
       ref={ref}
       className={clsx([buttonStyle({ size, variant })])}
       disabled={disabled}
+      data-loading={isLoading}
       style={{
         ...assignInlineVars({
           [enableColorVariant]: endableColor,
           [hoverColorVariant]: hoverColor,
           [activeColorVariant]: activeColor,
         }),
-
         ...props.style,
       }}
     >
-      {isLoading && spinnerPlacement === "start" && spinner}
-      {loadingText && loadingText}
-      {leftIcon && <span className={iconStyle({ size, iconSpacing })}></span>}
-      {children}
-      {rightIcon && <span className={iconStyle({ size, iconSpacing })}></span>}
-      {isLoading && spinnerPlacement === "end" && spinner}
+      {isLoading && (
+        <span className="button-loading-container">
+          {spinnerPlacement === "start" && spinner}
+          {loadingText && <span className="loading-text">{loadingText}</span>}
+          {spinnerPlacement === "end" && spinner}
+        </span>
+      )}
+      {!isLoading && (
+        <span className="button-container">
+          {leftIcon && (
+            <span className={iconStyle({ size, iconSpacing })}>{leftIcon}</span>
+          )}
+          <span>{children}</span>
+          {rightIcon && (
+            <span className={iconStyle({ size, iconSpacing })}>
+              {rightIcon}
+            </span>
+          )}
+        </span>
+      )}
     </button>
   );
 };

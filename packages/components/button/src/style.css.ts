@@ -24,7 +24,17 @@ export const buttonStyle = recipe({
       cursor: "not-allowed",
     },
     '&[data-loading="true"]': {
-      "& span": {
+      "& .button-loading-container": {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "0.5rem",
+      },
+      "& .loading-text": {
+        fontSize: "inherit",
+        color: "inherit",
+      },
+      "& .button-container": {
         opacity: 0,
       },
     },
@@ -103,10 +113,6 @@ export const buttonStyle = recipe({
 });
 
 export const iconStyle = recipe({
-  base: {
-    display: "flex",
-    alignItems: "center",
-  },
   variants: {
     size: {
       xs: {
@@ -139,7 +145,6 @@ const spinKeyframes = keyframes({
 
 export const spinnerStyle = recipe({
   base: {
-    position: "absolute",
     animation: `${spinKeyframes} 0.45s linear infinite`,
     display: "inline-block",
     borderTop: "2px solid currentcolor",
@@ -153,22 +158,18 @@ export const spinnerStyle = recipe({
       xs: {
         width: tokens.typography.fontSize[12],
         height: tokens.typography.fontSize[12],
-        left: `calc(50% - ${tokens.typography.fontSize[12]}/2)`,
       },
       sm: {
         width: tokens.typography.fontSize[14],
         height: tokens.typography.fontSize[14],
-        left: `calc(50% - ${tokens.typography.fontSize[14]}/2)`,
       },
       md: {
         width: tokens.typography.fontSize[16],
         height: tokens.typography.fontSize[16],
-        left: `calc(50% - ${tokens.typography.fontSize[16]}/2)`,
       },
       lg: {
         width: tokens.typography.fontSize[18],
         height: tokens.typography.fontSize[18],
-        left: `calc(50% - ${tokens.typography.fontSize[18]}/2)`,
       },
     },
   },

@@ -1,3 +1,4 @@
+import "@pesto-ui/components-button/style.css";
 import { Button as _Button } from "@pesto-ui/components-button";
 import { tokens } from "@pesto-ui/themes";
 export default {
@@ -28,5 +29,9 @@ export const ButtonStory = {
     children: "Button",
     variant: "outline",
     isDisabled: false,
+    isLoading: false,
+    leftIcon: "🐕",
+    loadingText: "Loading...",
+    spinnerPlacement: "start",
   },
 };

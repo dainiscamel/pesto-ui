@@ -10,7 +10,7 @@ export type ButtonProps = {
   loadingText: string;
   rightIcon: ReactElement<any, string | JSXElementConstructor<any>>;
   size: "lg" | "md" | "sm" | "xs";
-  spinner: boolean;
+  spinner: ReactElement<any, string | JSXElementConstructor<any>>;
   spinnerPlacement: "start" | "end";
   variant: "ghost" | "outline" | "solid";
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
