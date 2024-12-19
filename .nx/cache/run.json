@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @pesto-ui/components-layout",
-    "startTime": "2024-12-17T14:26:01.912Z",
-    "endTime": "2024-12-17T14:26:11.218Z",
+    "command": "nx build @pesto-ui/components-button",
+    "startTime": "2024-12-19T15:06:53.250Z",
+    "endTime": "2024-12-19T15:06:58.219Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@pesto-ui/esbulid-config:build",
       "target": "build",
       "projectName": "@pesto-ui/esbulid-config",
-      "hash": "9590364390923102752",
-      "startTime": "2024-12-17T14:26:01.950Z",
-      "endTime": "2024-12-17T14:26:01.952Z",
+      "hash": "4666931553238424724",
+      "startTime": "2024-12-19T15:06:53.258Z",
+      "endTime": "2024-12-19T15:06:53.259Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
@@ -21,20 +21,20 @@
       "taskId": "@pesto-ui/themes:build",
       "target": "build",
       "projectName": "@pesto-ui/themes",
-      "hash": "8729752136303659095",
-      "startTime": "2024-12-17T14:26:01.954Z",
-      "endTime": "2024-12-17T14:26:01.964Z",
+      "hash": "13789636879581897529",
+      "startTime": "2024-12-19T15:06:53.261Z",
+      "endTime": "2024-12-19T15:06:53.268Z",
       "params": "",
       "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
-      "taskId": "@pesto-ui/components-layout:build",
+      "taskId": "@pesto-ui/components-button:build",
       "target": "build",
-      "projectName": "@pesto-ui/components-layout",
-      "hash": "2833708374004955917",
-      "startTime": "2024-12-17T14:26:01.968Z",
-      "endTime": "2024-12-17T14:26:11.179Z",
+      "projectName": "@pesto-ui/components-button",
+      "hash": "2038302475512300844",
+      "startTime": "2024-12-19T15:06:53.271Z",
+      "endTime": "2024-12-19T15:06:58.219Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

@@ -1,1 +1,0 @@
-const t={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}},rootAttributesTooltip:!0,rootAttribute:{root:"body",attribute:"class",defaultState:{name:"Light",value:"theme-light"},states:[{name:"Dark",value:"theme-dark"}]}};export{t as default};

@@ -1,103 +1,89 @@
 {
   "nodes": {
-    "storybook-static": {
-      "name": "storybook-static",
+    "@pesto-ui/components-button": {
+      "name": "@pesto-ui/components-button",
       "type": "lib",
       "data": {
-        "root": "services/storybook/storybook-static",
-        "name": "storybook-static",
-        "generatedAt": 1734341074977,
-        "hasCustomBabel": false,
-        "hasCustomWebpack": false,
-        "hasStaticDirs": false,
-        "hasStorybookEslint": false,
-        "refCount": 0,
-        "testPackages": {},
-        "monorepo": "Nx",
-        "packageManager": {
-          "type": "yarn",
-          "version": "4.5.3"
-        },
-        "preview": {
-          "usesGlobals": false
-        },
-        "framework": {
-          "name": "@storybook/react-vite",
-          "options": {}
-        },
-        "builder": "@storybook/builder-vite",
-        "renderer": "@storybook/react",
-        "portableStoriesFileCount": 3,
-        "storybookVersion": "8.4.7",
-        "storybookVersionSpecifier": "^8.4.7",
-        "language": "javascript",
-        "storybookPackages": {
-          "@chromatic-com/storybook": {
-            "version": "3.2.2"
-          },
-          "@storybook/addon-a11y": {
-            "version": "8.4.7"
-          },
-          "@storybook/addon-essentials": {
-            "version": "8.4.7"
-          },
-          "@storybook/addon-interactions": {
-            "version": "8.4.7"
-          },
-          "@storybook/addon-links": {
-            "version": "8.4.7"
-          },
-          "@storybook/addon-onboarding": {
-            "version": "8.4.7"
-          },
-          "@storybook/blocks": {
-            "version": "8.4.7"
-          },
-          "@storybook/react": {
-            "version": "8.4.7"
-          },
-          "@storybook/react-vite": {
-            "version": "8.4.7"
-          },
-          "@storybook/test": {
-            "version": "8.4.7"
-          },
-          "storybook": {
-            "version": "8.4.7"
-          },
-          "storybook-addon-pseudo-states": {
-            "version": "4.0.2"
-          },
-          "storybook-addon-root-attributes": {
-            "version": "2.1.3"
+        "root": "packages/components/button",
+        "sourceRoot": "packages/components/button",
+        "name": "@pesto-ui/components-button",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "build",
+              "build:js",
+              "build:type",
+              "clean"
+            ]
           }
         },
-        "addons": {
-          "$SNIP/.yarn/__virtual__/@storybook-addon-links-virtual-0e2010dc94/3/.yarn/berry/cache/@storybook-addon-links-npm-8.4.7-1480bc861f-10c0.zip/node_modules/@storybook/addon-links": {
-            "version": null
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "metadata": {
+              "scriptContent": "yarn clean && yarn build:js && yarn build:type && yarn build:css",
+              "runCommand": "yarn build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
           },
-          "$SNIP/.yarn/__virtual__/@storybook-addon-essentials-virtual-2a253fdb1a/3/.yarn/berry/cache/@storybook-addon-essentials-npm-8.4.7-e3e59c2b23-10c0.zip/node_modules/@storybook/addon-essentials": {
-            "version": null
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "metadata": {
+              "scriptContent": "node build.js",
+              "runCommand": "yarn build:js"
+            },
+            "configurations": {},
+            "parallelism": true
           },
-          "$SNIP/.yarn/__virtual__/@storybook-addon-onboarding-virtual-1b285a80a1/3/.yarn/berry/cache/@storybook-addon-onboarding-npm-8.4.7-2a559af84a-10c0.zip/node_modules/@storybook/addon-onboarding": {
-            "version": null
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "metadata": {
+              "scriptContent": "yarn tsc --emitDeclarationOnly",
+              "runCommand": "yarn build:type"
+            },
+            "configurations": {},
+            "parallelism": true
           },
-          "$SNIP/.yarn/__virtual__/@storybook-addon-interactions-virtual-9afb8b2558/3/.yarn/berry/cache/@storybook-addon-interactions-npm-8.4.7-07f43d40ee-10c0.zip/node_modules/@storybook/addon-interactions": {
-            "version": null
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "metadata": {
+              "scriptContent": "rm -rf dist",
+              "runCommand": "yarn clean"
+            },
+            "configurations": {},
+            "parallelism": true
           },
-          "$SNIP/.yarn/__virtual__/storybook-addon-root-attributes-virtual-d17cb291f7/3/.yarn/berry/cache/storybook-addon-root-attributes-npm-2.1.3-3f8dfbf52c-10c0.zip/node_modules/storybook-addon-root-attributes": {
-            "version": null
-          },
-          "$SNIP/.yarn/__virtual__/@storybook-addon-a11y-virtual-218e7db169/3/.yarn/berry/cache/@storybook-addon-a11y-npm-8.4.7-28f1d62c1a-10c0.zip/node_modules/@storybook/addon-a11y": {
-            "version": null
-          },
-          "$SNIP/.yarn/__virtual__/storybook-addon-pseudo-states-virtual-d3b73b10d6/3/.yarn/berry/cache/storybook-addon-pseudo-states-npm-4.0.2-f17c2a6209-10c0.zip/node_modules/storybook-addon-pseudo-states": {
-            "version": null
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
           }
         },
-        "implicitDependencies": [],
-        "targets": {},
-        "tags": []
+        "implicitDependencies": []
       }
     },
     "@pesto-ui/components-layout": {
@@ -3456,6 +3442,15 @@
         "version": "1.16.1",
         "packageName": "@vanilla-extract/css",
         "hash": "10c0/a26236e1a20fd4bb675b01905ccb489978c3cce39902618ee979a830bf3a44929d9183f2a38762ea4d791dccefc3ee8d8022dfec0f8920a5f3a372bf6aac4e70"
+      }
+    },
+    "npm:@vanilla-extract/dynamic@2.1.2": {
+      "type": "npm",
+      "name": "npm:@vanilla-extract/dynamic@2.1.2",
+      "data": {
+        "version": "2.1.2",
+        "packageName": "@vanilla-extract/dynamic",
+        "hash": "10c0/7361863bbc1260fda447be80e888e3ad5dea09957651288d7aba81ba7f59594d11476a840c9162adc452f9a43dbc379b58621b5b500a49f537b0efc7737aac9c"
       }
     },
     "npm:@vanilla-extract/esbuild-plugin@2.3.12": {
@@ -8923,7 +8918,73 @@
     }
   },
   "dependencies": {
-    "storybook-static": [],
+    "@pesto-ui/components-button": [
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "@pesto-ui/themes",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:react@19.0.0",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "@pesto-ui/esbulid-config",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@types/react@19.0.1",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@types/react-dom@19.0.1",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@vanilla-extract/css@1.16.1",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@vanilla-extract/dynamic@2.1.2",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@vanilla-extract/esbuild-plugin@2.3.12",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@vanilla-extract/recipes@0.5.5",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:@vanilla-extract/sprinkles@1.6.3",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:react-dom@19.0.0",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/components-button",
+        "target": "npm:clsx@2.1.1",
+        "type": "static"
+      }
+    ],
     "@pesto-ui/components-layout": [
       {
         "source": "@pesto-ui/components-layout",
@@ -8997,6 +9058,11 @@
       {
         "source": "@pesto-ui/storybook",
         "target": "npm:@chromatic-com/storybook@3.2.2",
+        "type": "static"
+      },
+      {
+        "source": "@pesto-ui/storybook",
+        "target": "@pesto-ui/components-button",
         "type": "static"
       },
       {
@@ -12443,6 +12509,13 @@
       {
         "source": "npm:@vanilla-extract/css@1.16.1",
         "target": "npm:picocolors@1.1.1",
+        "type": "static"
+      }
+    ],
+    "npm:@vanilla-extract/dynamic@2.1.2": [
+      {
+        "source": "npm:@vanilla-extract/dynamic@2.1.2",
+        "target": "npm:@vanilla-extract/private@1.0.6",
         "type": "static"
       }
     ],

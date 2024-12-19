@@ -4,7 +4,6 @@ import { JSXElementConstructor, ReactElement } from "react";
 export type ButtonProps = {
   color?: keyof typeof tokens.colors.$scale;
   iconSpacing: keyof typeof tokens.box.spacing;
-  isActive: boolean;
   isDisabled: boolean;
   isLoading: boolean;
   leftIcon: ReactElement<any, string | JSXElementConstructor<any>>;
@@ -13,5 +12,5 @@ export type ButtonProps = {
   size: "lg" | "md" | "sm" | "xs";
   spinner: boolean;
   spinnerPlacement: "start" | "end";
-  variant: "ghost" | "outline" | "solid" | "link" | "unstyled";
+  variant: "ghost" | "outline" | "solid";
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;

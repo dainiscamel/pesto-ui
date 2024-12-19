@@ -1,37 +1,62 @@
 import * as React from "react";
+import { assignInlineVars } from "@vanilla-extract/dynamic";
 import { clsx } from "clsx";
 import { ButtonProps } from "./types";
 import { tokens } from "@pesto-ui/themes";
-import { iconStyle } from "./style.css";
+import {
+  activeColorVariant,
+  buttonStyle,
+  enableColorVariant,
+  hoverColorVariant,
+  iconStyle,
+} from "./style.css";
 
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
   const {
-    color,
+    color = "gray",
     iconSpacing,
-    isActive,
-    isDisabled,
-    isLoading,
+    isDisabled = false,
+    isLoading = false,
     leftIcon,
     loadingText,
     rightIcon,
     size = "md",
     spinner,
-    spinnerPlacement,
-    variant,
+    spinnerPlacement = "start",
+    variant = "solid",
     children,
     ...rest
   } = props;
 
+  const endableColor = tokens.colors.$scale[color][500];
+  const hoverColor =
+    variant === "solid"
+      ? tokens.colors.$scale[color][600]
+      : tokens.colors.$scale[color][50];
+  const activeColor =
+    variant === "solid"
+      ? tokens.colors.$scale[color][700]
+      : tokens.colors.$scale[color][100];
+
+  const disabled = isDisabled;
   return (
     <button
-      ref={ref}
       {...rest}
+      ref={ref}
+      className={clsx([buttonStyle({ size, variant })])}
+      disabled={disabled}
       style={{
-        color: color && tokens.colors.$scale?.[color]?.[700],
+        ...assignInlineVars({
+          [enableColorVariant]: endableColor,
+          [hoverColorVariant]: hoverColor,
+          [activeColorVariant]: activeColor,
+        }),
+
         ...props.style,
       }}
     >
       {isLoading && spinnerPlacement === "start" && spinner}
+      {loadingText && loadingText}
       {leftIcon && <span className={iconStyle({ size, iconSpacing })}></span>}
       {children}
       {rightIcon && <span className={iconStyle({ size, iconSpacing })}></span>}
